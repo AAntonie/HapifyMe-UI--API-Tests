@@ -4,7 +4,7 @@ Repository: https://github.com/AAntonie/HapifyMe-UI--API-Tests
 
 ✔ Pipeline trecut cu succes:
 
-![Pipeline status](images/PipeLineGitHub)
+![Pipeline status](images/PipeLineGitHub.jpg)
 
 ---
 
