@@ -17,7 +17,7 @@ public class Hooks {
 
             Configuration.browser = "chrome";
             Configuration.baseUrl = "https://apps.qualiadept.eu/hapifyme";
-            Configuration.headless = false;
+            Configuration.headless = true;
 
             setUpDone = true;
         }
@@ -25,7 +25,7 @@ public class Hooks {
         System.out.println("SCENARIO STARTED");
 
         open("/login_register.php");
-        webdriver().driver().getWebDriver().manage().window().maximize();
+
     }
 
     @After
